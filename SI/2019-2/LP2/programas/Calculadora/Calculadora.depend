@@ -1,0 +1,39 @@
+# depslib dependency file v1.0
+1568855066 source:/home/hoffmeister/Documentos/Calculadora/main.c
+	<stdio.h>
+	<stdlib.h>
+	"funcoes.h"
+
+1566604342 /home/hoffmeister/Documentos/Calculadora/ponteiro.h
+
+1566604338 /home/hoffmeister/Documentos/Calculadora/ponteiro.c
+	<stdio.h>
+	<stdlib.h>
+	"ponteiro.h"
+
+1566606903 /home/hoffmeister/Documentos/Calculadora/vetor.c
+	<stdio.h>
+	<stdlib.h>
+	"vetor.h"
+
+1566606844 /home/hoffmeister/Documentos/Calculadora/vetor.h
+
+1568855079 source:/home/hoffmeister/Documentos/Calculadora/funcoes.c
+	<stdio.h>
+	<stdlib.h>
+	"funcoes.h"
+	"ponteiro.h"
+	"vetor.h"
+
+1566608382 /home/hoffmeister/Documentos/Calculadora/funcoes.h
+
+1566608292 source:/home/hoffmeister/Documentos/Calculadora/ponteiro.c
+	<stdio.h>
+	<stdlib.h>
+	"ponteiro.h"
+
+1566608273 source:/home/hoffmeister/Documentos/Calculadora/vetor.c
+	<stdio.h>
+	<stdlib.h>
+	"vetor.h"
+

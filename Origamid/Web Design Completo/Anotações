@@ -1,0 +1,91 @@
+https://color.adobe.com/ Adobe Color CC
+http://www.awwwards.com/ Awwwards
+
+https://edgewebfonts.adobe.com/ Adobe Edge Fonts
+http://www.fontsquirrel.com/ Font Squirrel
+http://www.google.com/fonts/ Google Fonts
+http://www.typewolf.com/ Typewolf
+
+https://edgewebfonts.adobe.com/ Adobe Edge Fonts
+http://www.typewolf.com/ Typewolf
+
+http://www.nngroup.com/ Nielsen Norman Group
+
+Visualizar Unidades em PX
+
+Para mudar as unidades de CM para PX, vá em Window > Info. Na janela que abrir clique no + e 		selecione PX.
+
+http://www.sublimetext.com/ Sublime Text
+
+http://www.w3.org/ W3C
+
+http://www.w3schools.com/tags/ W3 Schools
+https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element Mozilla Developer
+
+http://www.w3.org/wiki/HTML/Elements/input W3C Referência
+
+http://www.w3schools.com/cssref/css_selectors.asp W3 School
+https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Reference Mozilla Developer
+Code Hint - Windows
+
+Só aperta o CTRL + Espaço para aparecer a lista de códigos no Sublime Text.
+
+http://getskeleton.com/ Skeleton
+http://necolas.github.io/normalize.css/ Normalize
+http://nicolasgallagher.com/micro-clearfix-hack/ ClearFix
+http://meyerweb.com/eric/tools/css/reset/index.html CSS Reset
+
+http://ethanmarcotte.com/ Ethan Marcotte
+http://alistapart.com/article/responsive-web-design Artigo do Layout Responsivo
+
+http://jquery.com/ jQuey
+http://responsiveslides.com/ Responsive Slides
+
+Atualização 07/03/2016
+
+Substituir o código:
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script>// <![CDATA[ window.jQuery || document.write('<script src="js/libs/jquery-1.11.2.min.js"><\/script>')
+// ]]></script>
+
+Por apenas:
+
+<script src="js/libs/jquery-1.11.2.min.js"></script>
+
+Explicação:
+
+Alguns alunos estavam tendo problemas com as animação, elas estavam demorando a carregar. E isso acontecia pois os browsers pararam de aceitar o // como elemento coringa para carregar http ou https. Então ele não conseguia carregar o arquivo de jQuery pelo link:
+
+//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js
+
+A única forma de fazer funcionar seria adicionando o http ou https e ficaria assim: https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js
+
+Para evitar maiores problemas eu retirei o carregamento pelo link do Google e deixei apenas o carregamento do arquivo local com:<script src="js/libs/jquery-1.11.2.min.js"></script>
+
+Todos os arquivos do site já foram atualizados para o novo código.
+
+http://daneden.github.io/animate.css/ Animate CSS
+https://github.com/ai/visibilityjs Visibility JS
+http://modernizr.com/ Modernizr
+
+https://github.com/PHPMailer/PHPMailer PHP Mailer
+
+http://www.favicomatic.com/ Favicon Generator
+http://ogp.me/ Open Graph
+
+http://validator.w3.org/ HTML Validator
+https://jigsaw.w3.org/css-validator/ CSS Validator
+http://csscompressor.com/ CSS Compressor (1)
+http://refresh-sf.com/ CSS Compressor (2)
+
+https://cyberduck.io/ Cyber Duck (FTP)
+https://filezilla-project.org/ Filezilla (FTP)
+http://www.dreamhost.com/ Dream Host
+http://www.kinghost.com.br/ King Host
+https://www.siteground.com/ Site Ground
+http://mediatemple.net/ Media Temple
+
+http://www.google.com/analytics/ Google Analytics
+
+

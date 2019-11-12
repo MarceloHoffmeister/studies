@@ -1,0 +1,187 @@
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <style type="text/css">
+      html,body{
+        height:100%;
+        padding:0;
+        margin:0;
+      }
+      .oc{
+        display:table;
+        width:100%;
+        height:100%;
+      }
+      .ic{
+        display:table-cell;
+        vertical-align:middle;
+        height:100%;
+      }
+      form{
+        display:block;
+        background:#ccc;
+        border:2px solid red;
+        padding:0 0 25px 0;
+        width:500px;
+        font-family:helvetica,sans-serif;
+        font-size:14px;
+        margin:10px auto;
+      }
+      .fel,.fer,.fec{
+        text-align:center;
+        width:350px;
+        margin:0 auto;
+        padding:10px;
+      }
+      .fel{
+        text-align:left;
+      }
+      .fer{
+        text-align:right;
+      }
+      h1{
+        font-weight:bold;
+        font-size:21px;
+        margin:0;
+        padding:20px 10px;
+        text-align:center;
+      }
+      p{
+        margin:15px auto;
+        width:75%;
+        text-align:left;
+      }
+      ul{
+        margin:15px auto;
+        width:75%;
+      }
+      h2{
+        margin:25px 10px;
+        font-weight:bold;
+        text-align:center;
+      }
+      label,h2{
+        font-size:16px;
+      }
+      .logo{
+        
+        background:#37B center 25px url(/XX/YY/ZZ/CI/MGPGHGPGPFEDCGEGBG) no-repeat;
+        
+        padding-top:80px;
+      }
+    </style>
+    <title>
+      Autenticação para acesso a Internet 
+    </title>
+  </head>
+  
+  <body>
+    <div class="oc">
+      <div class="ic">
+        
+        
+        <form action="/" method="post">
+          
+          <input
+          name="4Tredir" value="/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" type="hidden">
+          
+          <input
+          name="magic" value="018e0c83b44db9f8" type="hidden">
+          <h1 class="logo">
+            <br>
+            Autenticação Requerida
+          </h1>
+          <h2>
+            Para navegar na Internet, informe sua identidade e senha 
+          </h2>
+          <p style="margin-bottom: 0cm; font-variant: normal; font-style: normal; font-weight: normal; widows: 2; orphans: 2;" align="center">
+            <font color="#004586"; size="1" face="Arial, Helvetica, sans-serif">
+              
+              Ao utilizar a Internet fornecida pela 4 Bda C Mec, comprometo-me a respeitar as normas de acesso à Internet conforme 
+              <a href="http://www.6cta.eb.mil.br/documentos-sic?download=17:termo-acesso-internet" name="6CTA">
+                termo de responsabilidade.
+              </a>
+              
+            </font>
+            
+          </p>
+          <br>
+          <div class="fer">
+            
+            <label for="ft_un">
+              Identidade: 
+            </label>
+            
+            <input name="username" id="ft_un" style="width: 245px;">
+            
+            <br>
+          </div>
+          <div class="fer">
+            
+            <label for="ft_pd">
+              Senha: 
+            </label>
+            
+            <input
+            name="password" id="ft_pd" style="width: 245px;" type="password">
+          </div>
+          <div class="fer">
+            
+            <input value="Aceitar" type="submit">
+            
+          </div>
+          
+          
+          
+          <div style="text-align: center;">
+            <font color="#004586">
+              <font
+              face="Arial, Helvetica, sans-serif">
+                <font style="font-size: 9pt;"
+                size="1">
+                  <br>
+                  OBS: Esta autenticação é valida por 1h.
+                </font>
+              </font>
+            </font>
+            
+          </div>
+          
+          <br>
+          
+          <div style="text-align: center;">
+            
+            <font color="#004586">
+              
+              <font     face="Arial, Helvetica, sans-serif">
+                
+                <font style="font-size: 10pt;" size="1">
+                  
+                  <span
+                  style="background: transparent none repeat scroll 0% 50%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial;">
+                    Todo acesso a Internet, é monitorado! 
+                  </span>
+                  
+                </font>
+              </font>
+            </font>
+            <br>
+          </div>
+          <div style="text-align: center;">
+            <font color="#004586">
+              <font
+              face="Arial, Helvetica, sans-serif">
+                <font style="font-size: 8pt;"
+                size="1">
+                  Em caso de dúvidas, entre em contato com a Seção de Informática pela RITEx 894-9461 
+                </font>
+              </font>
+            </font>
+            
+          </div>
+          
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
