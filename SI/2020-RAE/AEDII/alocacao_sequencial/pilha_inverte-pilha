@@ -1,0 +1,42 @@
+/*
+  Utilizando uma pilha (e as funções Empilha e Desempilha), escreva
+  uma função que receba como argumento uma sequência de
+  caracteres e seu tamanho e imprima essa sequência de forma
+  invertida. Apresente também as funções Empilha e Desempilha.
+*/
+
+// Empilha
+// Suponha topo inicializado com -1
+procedimento Empilha(P[TAMMAX]:vetor de caracter, ref topo, novo:caracter)
+inicio
+  se (topo < TAMMAX) entao
+    topo <- topo + 1;
+    P[topo] <- novo;
+  senao
+    escreva "Overflow!!!";
+  fim_se
+fim
+
+// Desempilha
+funcao inteiro Desempilha(P[TAMMAX]:vetor de caracter, ref topo:inteiro)
+  declar removido:inteiro;
+inicio
+  se (topo >= 0) entao
+    removido <- topo;
+    topo <- topo - 1;
+    retorna removido;
+  senao
+    escreva "Underflow!!!";
+  fim_se
+fim
+
+// Inverte
+funcao vetor de caracter Inverte(V[TAMMAX], AUX[TAMMAX]:vetor de caracter, TOPO_V, TOPO_AUX)
+  declare retorno:inteiro;
+incio
+  para (i de TOPO_V até 0) faca
+    retorno <- desempilha(V[TAMMAX], TOPO_V);
+    empilha(AUX[TAMMAX], TOPO_AUX, V[retorno]);
+  fim para
+  retorna AUX[TAMMAX];
+fim
