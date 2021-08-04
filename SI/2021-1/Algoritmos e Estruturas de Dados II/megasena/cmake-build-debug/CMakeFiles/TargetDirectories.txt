@@ -1,0 +1,3 @@
+/home/hoffmeister/Documentos/Sistemas de Informação/2021.1/Algoritmos e Estruturas de Dados II/megasena/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/hoffmeister/Documentos/Sistemas de Informação/2021.1/Algoritmos e Estruturas de Dados II/megasena/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/hoffmeister/Documentos/Sistemas de Informação/2021.1/Algoritmos e Estruturas de Dados II/megasena/cmake-build-debug/CMakeFiles/megasena.dir
