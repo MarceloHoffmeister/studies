@@ -1,0 +1,14 @@
+int returnGreaterGroup(vetor T[], int m) {
+    int result = 0, count = 0, i;
+    
+    for (i = 0; i < m; i++) {
+        if (T[i] != -1) {
+            count++;
+        } else {
+            result = result < count ? count : result;
+            count = 0;
+        }
+    }
+    
+    return result < count ? count : result;
+}
