@@ -1,0 +1,3 @@
+/home/hoffmeister/Documentos/Sistemas de Informação/2022.1/Algoritmos e Estruturas de Dados III/percurso_em_nivel/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/hoffmeister/Documentos/Sistemas de Informação/2022.1/Algoritmos e Estruturas de Dados III/percurso_em_nivel/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/hoffmeister/Documentos/Sistemas de Informação/2022.1/Algoritmos e Estruturas de Dados III/percurso_em_nivel/cmake-build-debug/CMakeFiles/percurso_em_nivel.dir
